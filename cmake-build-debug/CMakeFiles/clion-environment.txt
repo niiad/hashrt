@@ -1,0 +1,4 @@
+ToolSet: w64 11.0 (local)@C:\msys64\mingw64
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe

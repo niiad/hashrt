@@ -1,0 +1,35 @@
+"C:\Program Files\JetBrains\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe" -G Ninja -S C:\Projects\c -B C:\Projects\c\cmake-build-debug
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/msys64/mingw64/bin/cc.exe
+-- Check for working C compiler: C:/msys64/mingw64/bin/cc.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2022.1.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "C:/msys64/mingw64/bin/cc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Projects/c/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_6259b && [1/2] Building C object CMakeFiles\cmTC_6259b.dir\testCCompiler.c.obj
+    FAILED: CMakeFiles/cmTC_6259b.dir/testCCompiler.c.obj 
+    C:\msys64\mingw64\bin\cc.exe    -o CMakeFiles\cmTC_6259b.dir\testCCompiler.c.obj -c C:\Projects\c\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Projects/c/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Projects/c/cmake-build-debug/CMakeFiles/CMakeError.log".
